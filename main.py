@@ -38,7 +38,7 @@ def main():
             password = input("Please enter your password to encode: ")
             password_e = encode(password)
             print("Your password has been encoded and stored!\n")
-        # If the user chooses 2, it ouputs the encoded password and the original password
+        # If the user chooses 2, it outputs the encoded password and the original password
         elif user_choice == 2:
             if password_e:
                 print(f"The encoded password is {password_e}, and the original password is {decoder(password_e)}.")
